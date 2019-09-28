@@ -1,0 +1,10 @@
+prefix=/home/zhangjie/job/mxml-2.7/__INSTALL
+exec_prefix=/home/zhangjie/job/mxml-2.7/__INSTALL
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Mini-XML
+Description: Lightweight XML support library
+Version: 2.7
+Libs: -L${exec_prefix}/lib -lmxml -lpthread
+Cflags: -I${prefix}/include -D_THREAD_SAFE -D_REENTRANT
